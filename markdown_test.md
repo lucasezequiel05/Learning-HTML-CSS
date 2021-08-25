@@ -175,6 +175,17 @@ Colocar nombre del emoji entre dos símbolos " : "
 
 Fuente: <https://emojipedia.org/github/>
 
+#### **CREAR CASILLA DE TAREAS**
+
+~~~
+- [ ] Casilla1
+- [ ] Casilla2
+- [x] Casilla3
+~~~
+- [ ] Casilla1
+- [ ] Casilla2
+- [x] Casilla3
+
 ***
 ## VINCULAR ENLACE A UN EMAIL:
 
