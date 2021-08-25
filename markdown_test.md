@@ -56,26 +56,21 @@ Antepongo la barra invertida antes del símbolo `\. , \* , \#`
 
 `[Enlace a tutorial](https://markdown.es/sintaxis-markdown/)`  
 
-[https://markdown.es/sintaxis-markdown/](https://markdown.es/sintaxis-markdown/)
+[https://github.com/](https://github.com/)
 
-Para que el enlace abra en una nueva pestaña utilizo `blank:#`  
-`[Enlace a GitHub](blank:#https://github.com/)`.
+Enlace a GitHub [Aquí](https://github.com/) .  
 
-Enlace a GitHub [Aquí](blank:#https://github.com/) .  
-
-[https://markdown.es/sintaxis-markdown/](blank:#https://markdown.es/sintaxis-markdown/)  
 
 ## CREAR ENLACE DE REFERENCIA:
-Consiste en utilizar una referencia que guarda nuestro enlace y la asocia a diferentes casos donde necesitamos invovarlo. De esta forma evitamos declarar la sintaxis de enlace en el texto.
+Consiste en utilizar una referencia que guarda nuestro enlace y de esta forma evitamos declarar la sintaxis de enlace en el texto cada vez que sea requerido.
 
-[blog]: https://markdown.es/sintaxis-markdown/
+[link]: https://www.youtube.com/
 
-Este es un texto de ejemplo [Enlace][blog].
-También puedo utilizar números: [23][blog].
+Este es un texto de ejemplo [Enlace23][link].
 
 Para mostrar la URL completa y no dentro de un enlace enmascarado: 
 
-<https://markdown.es/sintaxis-markdown/>
+<https://www.youtube.com//>
 
 ***
 ## INDICAR CÓDIGO:
