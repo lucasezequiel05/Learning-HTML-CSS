@@ -61,7 +61,6 @@ Antepongo la barra invertida antes del símbolo `\. , \* , \#`
 
 Enlace a GitHub [Aquí](https://github.com/) .  
 
-
 ## CREAR ENLACE DE REFERENCIA:
 Consiste en utilizar una referencia que guarda nuestro enlace y de esta forma evitamos declarar la sintaxis de enlace en el texto cada vez que sea requerido.
 
@@ -102,10 +101,14 @@ Se compone de 4 parámetros:
 + () Ruta de acceso a la imagen
 + "" Título en caso de detener el cursor sobre la imagen
 
+Al momento de cargar una imagen en local tener en cuenta:  
++ Es necesario colocar la extensión de la imagen.
++ Cuando la ruta se especifíca desde la ubicación del archivo markdown comenzar esta misma con punto-barra: " ./ruta_al_archivo/imagen.jpg "
+
 ~~~
 Sintaxis:
 
-![msj error][ruta/hacia/la/ubicación/de/la/imágen "Título"]  
+![msj error](ruta/hacia/la/ubicación/de/la/imágen.jpg "Título")  
 ~~~
 
 Ejemplo:
@@ -161,10 +164,7 @@ La alineación del texto depende de la posición de los "dos puntos :"
 <!-- Un comentario-->
 ~~~
 ***
-
 ## RECURSOS PARA GITHUB
-
-
 #### **REALIZAR MENCIONES DE USUARIOS**
 
 `@username`

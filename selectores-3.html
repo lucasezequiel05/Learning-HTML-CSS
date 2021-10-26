@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .saludo{
+            color: salmon; 
+        }
+        .saludo:hover{
+            color: skyblue;
+        }
+
+        /* Establezco caract. para el segundo y tercer elemento */
+        div p:nth-child(2){
+            color:magenta;
+        }
+        div p:nth-child(3){
+            background: black;
+            color: white;
+        }
+        
+        /*Modifico el color de la primer letra, agrego un emoji que cambiara con el cursor. */
+        
+        div p::first-letter{
+            color: red;
+        }
+        div p::before{
+            content:"💎";
+        }
+        div p:hover::before{
+            content:"🎈";
+        }
+        
+        /*Aplica al tercer elemento, agrega contenido al final*/
+        div p:nth-child(3):hover::after{
+            content:"🤡🎃👻";
+        }
+
+        /* Modifico el pseudo elemento */
+        ::placeholder{
+            color: tomato;
+        }
+
+        /*Focus cambio los elementos al er clikeados*/
+        button:focus{
+            color: white;
+            background: blue;
+        }
+
+        /*Permite modificar el color de fondo y de texto de todos los párrafos al ser seleccionados*/
+        *::selection{
+            color: white;
+            background: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Defino el color inicial del elemento "saludo" y con la pseudo class hover el color al ser alcanzado por el cursor. -->
+    <p class="saludo">Hola</p>
+
+    <div>
+        <p>Aprender</p>
+        <p>HTML & CSS</p>
+        <p>Es lo mejor</p>
+    </div>
+
+    <p class="parrafo">Aprender requiere paciencia, constancia, tomarse su tiempo para comprender y practicar.</p>
+
+    <input type="text" placeholder="Name">
+
+    <button>OK</button>
+
+</body>
+</html>

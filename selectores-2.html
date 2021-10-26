@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > div{
+            background: lime;
+        }
+        .et1{
+            background: white;
+        }
+        div ~ section{
+            background:red;
+        }
+    </style>
+</head>
+<body>
+    <section>Es lo mejor</section>
+    <div>
+        <section>Es lo mejor</section>
+
+        <div>
+            hijo directo
+        </div>
+        <p>
+            etiqueta p.
+        </p>
+        <section>Es lo mejor</section>
+        <div class="et1">
+            etiqueta div tipo clase.
+        </div> 
+        <div>
+            hijo directo
+        </div>
+        <section>Es lo mejor</section>
+        <span><div>Div dentro de span</div></span>
+
+
+    </div>
+    <p>Descendientes</p>
+    <section>Es lo mejor</section>
+
+</body>
+</html>
