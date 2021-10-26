@@ -391,8 +391,10 @@ En VSCode " Control + . " Para acceder a los emojis.
 </html>
 ~~~
 
-![img1](./images/selector-3.jpg)
-Con los efectos aplicados:
+![img1](./images/selector-3.jpg)  
+
+Con los efectos aplicados:  
+
 ![img2](./images/selector-4.jpg)
 
 ### CONCEPTO DE CASCADA Y ESPECIFICIDAD:
