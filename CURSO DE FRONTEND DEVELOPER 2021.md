@@ -28,7 +28,7 @@ Los **atributos** son una caracteristica de cada etiqueta, se definen en la etiq
 
 El **anidamiento** es una estructura que permite crear etiquetas dentro de otras etiquetas. La etiqueta `<section></section>` crea esta estructura.
 
-![anidamiento1](./images/anidamiento1.jpg)
+<img src="./images/anidamiento1.jpg" width="400" height="300" />
 
 Hay etiquetas que no tienen apertura y cierre, se denominan **elementos vacíos**.
 
@@ -64,7 +64,7 @@ Como buena práctica permite tener un código más claro y legíble al poder ide
 Además permite al motor de búsqueda, por ejemplo Google, que identifique los elementos y contenido de nuestra página permitiendo así mejorar nuestro posicionamiento SEO dentro de la web. 
 Es importante utilizar div solo para casos como mejorar estilos u ordenamiento y dentro de etiquetas contenedoras como ser header o footer, dado que google ignora las etiquetas div por no tener un significado específico o un sentido concreto de uso.
 
-![semantico1](./images/semantico1.jpg)
+<img src="./images/semantico1.jpg" width="300" height="300" />
 
 ~~~html
 Ejemplo de una estructura base de página web:
@@ -137,7 +137,7 @@ Se definen los selectores de estilo dentro del head, dentro de una etiqueta `<st
 
 #### SELECTORES SIMPLES
 
-![selectoresbasicos](./images/selectoresbasicos.jpg)
+<img src="./images/selectoresbasicos.jpg" width="400" height="300" />
 
 1. **De tipo**: Estiliza Todas las etiquetas del mismo tipo, sirve para realizar ejemplos o cosas simples.
 
@@ -242,14 +242,13 @@ Ejemplo:
 </html>
 ~~~
 
-#### SELECTORES COMBINADOS
+#### SELECTORES COMBINADOS  
 
-![selectorescombinados](./images/selectorescombinados.jpg)
+<img src="./images/selectorescombinados.jpg" width="400" height="300" />
 
 1. **De hijos descendientes**: Para todos los "p" que esten dentro de "div".  
 
-`div p{
-    color: lime;
+`div p{  color: lime;
 }`
 
 2. **De hijo directo**: Se define como " div > p ". El estilo aplica a todas las etiquetas p que esten dentro de la etiqueta div. No aplica si se encuentra dentro de otra etiqueta que no sea la indicada.
@@ -391,11 +390,11 @@ En VSCode " Control + . " Para acceder a los emojis.
 </html>
 ~~~
 
-![img1](./images/selector-3.jpg)  
+<img src="./images/selector-3.jpg" width="500" height="300" />
 
 Con los efectos aplicados:  
 
-![img2](./images/selector-4.jpg)
+<img src="./images/selector-4.jpg" width="500" height="300" />
 
 ### CONCEPTO DE CASCADA Y ESPECIFICIDAD:
 
@@ -420,7 +419,7 @@ En HTML:
 
 La Especificidad de los selectores: Es utilizado por los navegadores al entrar en conflicto con un elemento y no saber que selector aplicar, "Entre mayor especificidad, mayor va a ser la probabilidad de que sus declaraciones se usen sobre las demás".
 
-![tabla-especificidad](./images/tabla-especificidad.jpg)
+<img src="./images/tabla-especificidad.jpg" width="450" height="300" />
 
 ![nivel-especificidad](./images/especificidad-2.jpg)
 
